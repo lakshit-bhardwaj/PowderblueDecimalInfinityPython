@@ -4,3 +4,4 @@ for i in range(1,100):
       break
   else:
     print(i)
+#This else would print line6 if the inner loop completes without break 
