@@ -15,10 +15,10 @@ class Car():
     self.make=make
     self.model=model
 
-#ford=Garage()
-#car=Car('Ford','Fiesta')
-#ford.add_car(car)
-#print(len(ford))
+ford=Garage()
+car=Car('Ford','Fiesta')
+ford.add_car(cars)
+print(len(ford))
 
 class UncountableError(Exception):
   def __init__(self, number):
