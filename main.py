@@ -4,5 +4,5 @@
 #import classes
 #print(functions.area_circle(4))
 #print(factorial.factorial(3))
-import errors
+import error_exercise
 #movies.menu()
