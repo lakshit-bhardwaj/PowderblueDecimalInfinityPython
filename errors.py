@@ -34,4 +34,10 @@ def count_from_zero_to_n(n):
   for x in range(0, n + 1):
       print(x)
 
-count_from_zero_to_n(-100)
+#count_from_zero_to_n(-100)
+
+class InvalidNumber(Exception):
+  def __init__(self):
+    super().__init__('Invalid Number')
+
+raise InvalidNumber
