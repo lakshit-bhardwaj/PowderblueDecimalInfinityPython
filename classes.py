@@ -24,5 +24,6 @@ print(b.name)
 print(b.age)
 #print(b.age_months())
 print(b.age_months)
+print(b.__class__.__name__)
 
 
