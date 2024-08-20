@@ -8,4 +8,4 @@ try:
     a=int(input('Please enter the number for calculating the factorial \n'))
     print(f'The factorial of the number {a} is {factorial(a)}')
 except ValueError:
-          print('Please input numbers only.')
+          print('Please input numbers only')
